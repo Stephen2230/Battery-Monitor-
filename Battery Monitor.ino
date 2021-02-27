@@ -43,9 +43,5 @@ void printVolts()
     lcd.print("voltage = ");
     lcd.print(voltage); //print the voltage to LCD
     lcd.print(" V");
-    if (voltage < 6.50) //set the voltage considered low battery here
-    (
-      digitalWrite(led_pin, HIGH);
-     }
-  
+ 
 }
